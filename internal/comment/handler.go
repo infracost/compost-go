@@ -96,8 +96,6 @@ func NewPlatformHandlerFactory(ctx context.Context, platform string, targetType 
 		}
 	}
 
-	fmt.Println(platformHandlerRegister)
-
 	return nil, fmt.Errorf("%s (%s) is not supported", platform, targetType)
 }
 
